@@ -23,6 +23,15 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
 
+        TextView reminders = (TextView)findViewById(R.id.reminders);
+
+        reminders.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, ReminderListActivity.class);
+                startActivity(i);
+            }
+        }));
 
 
     }

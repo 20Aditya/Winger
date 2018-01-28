@@ -17,6 +17,15 @@
         android:background="@color/cardview_shadow_start_color"
         android:clickable="true"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_below="@+id/notes"
+        android:id="@+id/reminders"
+        android:text="Reminders"
+        android:background="@color/cardview_shadow_start_color"
+        />
+
 
 
 </RelativeLayout>
